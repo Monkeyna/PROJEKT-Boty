@@ -4,47 +4,57 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
 	<title>Boty</title>
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
-
+<div class="complete">
 	<!-- levá (zelená) polovina -->
-		<img src="images/nike.svg" alt="logo Nike" width="65" height="24">
+	<div class="green">
+		<img src="images/nike.svg" class="nike" alt="logo Nike" width="65" height="24">
 
-		<p>
+		<p class="speedUp">
 			Zrychli tempo,<br>
 			soustřeď se na rychlost!
 		</p>
+		<div class="shoe">
+			<img src="images/bota.png" alt="fotografie Nike Air Zoom Pegasus 33" width="415" height="295">
+		</div>
 
-		<img src="images/bota.png" alt="fotografie Nike Air Zoom Pegasus 33" width="415" height="295">
-
-		<div>2450&nbsp;Kč</div>
-		<div>Prodloužená záruka 3 roky</div>
+		<div class="advert">
+			<div class="price">2450&nbsp;Kč</div>
+			<div class="guaranty">Prodloužená záruka 3 roky</div>
+		</div>
+	</div>
 	<!-- konec levé poloviny -->
 
 
 	<!-- pravá (bílá) polovina -->
+	<div class="white">
 		<h1>Nike Air Zoom Pegasus 33</h1>
 
-		<p>Dámská běžecká bota</p>
+		<p class="womenShoe">Dámská běžecká bota</p>
 
-		<p>
+		<p class="contentOfAdd">
 			Nike Air Zoom Pegasus 33 dokonale padne, dodá pocit rychlosti a má pružné tlumení, které ti umožní zrychlit tempo a soustředit se na rychlost.
 		</p>
-
+		<div class="span"></div>
 		<h2>Velikost</h2>
 
-		<ul>
-			<li>35</li>
-			<li>36</li>
-			<li>37</li>
-			<li>38</li><!-- tato velikost bude zvýrazněná jako vybraná -->
-			<li>39</li>
-			<li>40</li>
+		<ul class="container">
+			<li class="size">35</li>
+			<li class="size">36</li>
+			<li class="size">37</li>
+			<li class="size em">38</li><!-- tato velikost bude zvýrazněná jako vybraná -->
+			<li class="size">39</li>
+			<li class="size">40</li>
 		</ul>
-
-		<a href="#">Do košíku</a>
+		<button>
+			<a href="#">Do košíku</a>
+		</button>
+	</div>
+</div>
 	<!-- konec pravé poloviny -->
 
 </body>
